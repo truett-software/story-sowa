@@ -1,0 +1,131 @@
+<svg viewBox="0.00 0.00 906.00 528.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<style>
+@font-face{font-family: NotoSans; src:url('https://s3.amazonaws.com/benetta.net/fonts/noto-sans/noto-sans-v21-latin-regular.ttf') format('truetype'), url('https://s3.amazonaws.com/benetta.net/fonts/noto-sans/noto-sans-v21-latin-regular.woff2') format('woff2'); font-display:swap; font-style:normal; font-weight:400;}
+</style>
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 524)">
+<polygon fill="transparent" stroke="transparent" points="-4,4 -4,-524 902,-524 902,4 -4,4"/>
+<g id="node1" class="node">
+<polygon fill="none" stroke="#000000" points="495,-265.5 495,-296.5 704,-296.5 704,-265.5 495,-265.5"/>
+<polygon fill="#d3d3d3" stroke="transparent" points="498,-268.5 498,-293.5 701,-293.5 701,-268.5 498,-268.5"/>
+<text text-anchor="start" x="505" y="-278.5" font-family="NotoSans" font-size="10.00" fill="#0000ff">:PhilosopherAdmiredByChurchFathers</text>
+<polygon fill="none" stroke="#000000" points="495,-245.5 495,-265.5 704,-265.5 704,-245.5 495,-245.5"/>
+</g>
+<g id="node2" class="node">
+<polygon fill="none" stroke="#000000" points="128,-411.5 128,-442.5 207,-442.5 207,-411.5 128,-411.5"/>
+<polygon fill="#d3d3d3" stroke="transparent" points="131,-414.5 131,-439.5 204,-439.5 204,-414.5 131,-414.5"/>
+<text text-anchor="start" x="138" y="-424.5" font-family="NotoSans" font-size="10.00" fill="#000000"> </text>
+<text text-anchor="start" x="151" y="-424.5" font-family="NotoSans" font-size="10.00" fill="#000000">:Stagirite</text>
+<polygon fill="none" stroke="#000000" points="128,-391.5 128,-411.5 207,-411.5 207,-391.5 128,-391.5"/>
+</g>
+<g id="node3" class="node">
+<polygon fill="none" stroke="#000000" points="551,-484.5 551,-515.5 648,-515.5 648,-484.5 551,-484.5"/>
+<polygon fill="#d3d3d3" stroke="transparent" points="554,-487.5 554,-512.5 645,-512.5 645,-487.5 554,-487.5"/>
+<text text-anchor="start" x="561" y="-497.5" font-family="NotoSans" font-size="10.00" fill="#000000"> </text>
+<text text-anchor="start" x="574" y="-497.5" font-family="NotoSans" font-size="10.00" fill="#000000">:Macedonian</text>
+<polygon fill="none" stroke="#000000" points="551,-464.5 551,-484.5 648,-484.5 648,-464.5 551,-464.5"/>
+</g>
+<g id="edge1" class="edge">
+<path fill="none" stroke="#0000ff" d="M214.8821,-425.5912C292.1174,-438.6425 444.4033,-464.376 532.2499,-479.2205"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="531.9293,-482.7158 542.3727,-480.931 533.0957,-475.8137 531.9293,-482.7158"/>
+<text text-anchor="middle" x="380" y="-461.1" font-family="NotoSans" font-size="8.00" fill="#000000">:teaches</text>
+</g>
+<g id="node4" class="node">
+<polygon fill="none" stroke="#000000" points="488,-411.5 488,-442.5 710,-442.5 710,-411.5 488,-411.5"/>
+<polygon fill="#d3d3d3" stroke="transparent" points="491,-414.5 491,-439.5 707,-439.5 707,-414.5 491,-414.5"/>
+<text text-anchor="start" x="498" y="-424.5" font-family="NotoSans" font-size="10.00" fill="#000000"> </text>
+<text text-anchor="start" x="511" y="-424.5" font-family="NotoSans" font-size="10.00" fill="#000000">:PhilosopherAdmiredByChurchFathers</text>
+<polygon fill="none" stroke="#000000" points="488,-391.5 488,-411.5 710,-411.5 710,-391.5 488,-391.5"/>
+</g>
+<g id="edge2" class="edge">
+<path fill="none" stroke="#0000ff" d="M214.8821,-417.5C275.8462,-417.5 383.5699,-417.5 469.4543,-417.5"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="469.5488,-421.0001 479.5488,-417.5 469.5487,-414.0001 469.5488,-421.0001"/>
+<text text-anchor="middle" x="380" y="-420.1" font-family="NotoSans" font-size="8.00" fill="#000000">:opponentOf</text>
+</g>
+<g id="node5" class="node">
+<polygon fill="none" stroke="#000000" points="488,-338.5 488,-369.5 710,-369.5 710,-338.5 488,-338.5"/>
+<polygon fill="#d3d3d3" stroke="transparent" points="491,-341.5 491,-366.5 707,-366.5 707,-341.5 491,-341.5"/>
+<text text-anchor="start" x="498" y="-351.5" font-family="NotoSans" font-size="10.00" fill="#000000"> </text>
+<text text-anchor="start" x="511" y="-351.5" font-family="NotoSans" font-size="10.00" fill="#000000">:PhilosopherAdmiredByChurchFathers</text>
+<polygon fill="none" stroke="#000000" points="488,-318.5 488,-338.5 710,-338.5 710,-318.5 488,-318.5"/>
+</g>
+<g id="edge3" class="edge">
+<path fill="none" stroke="#0000ff" d="M214.8821,-409.4088C275.8462,-399.107 383.5699,-380.9037 469.4543,-366.3908"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="470.2718,-369.8024 479.5488,-364.685 469.1054,-362.9002 470.2718,-369.8024"/>
+<text text-anchor="middle" x="380" y="-390.1" font-family="NotoSans" font-size="8.00" fill="#000000">:discipleOf</text>
+</g>
+<g id="node10" class="node">
+<polygon fill="none" stroke="#000000" points="839.5,-484.5 839.5,-515.5 890.5,-515.5 890.5,-484.5 839.5,-484.5"/>
+<polygon fill="#d3d3d3" stroke="transparent" points="842.5,-487.5 842.5,-512.5 887.5,-512.5 887.5,-487.5 842.5,-487.5"/>
+<text text-anchor="start" x="849.5" y="-497.5" font-family="NotoSans" font-size="10.00" fill="#0000ff">:world</text>
+<polygon fill="none" stroke="#000000" points="839.5,-464.5 839.5,-484.5 890.5,-484.5 890.5,-464.5 839.5,-464.5"/>
+</g>
+<g id="edge5" class="edge">
+<path fill="none" stroke="#0000ff" d="M655.6308,-490.5C704.9403,-490.5 775.4131,-490.5 820.5635,-490.5"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="820.6315,-494.0001 830.6315,-490.5 820.6314,-487.0001 820.6315,-494.0001"/>
+<text text-anchor="middle" x="801.5" y="-493.1" font-family="NotoSans" font-size="8.00" fill="#000000">:conquers</text>
+</g>
+<g id="node6" class="node">
+<polygon fill="none" stroke="#000000" points="434,-192.5 434,-223.5 764,-223.5 764,-192.5 434,-192.5"/>
+<polygon fill="#d3d3d3" stroke="transparent" points="437,-195.5 437,-220.5 761,-220.5 761,-195.5 437,-195.5"/>
+<text text-anchor="start" x="444" y="-205.5" font-family="NotoSans" font-size="10.00" fill="#0000ff">https://s3.amazonaws.com/benetta.net/story/sowa/rdf&#45;pic&#45;2.png</text>
+<polygon fill="none" stroke="#000000" points="434,-172.5 434,-192.5 764,-192.5 764,-172.5 434,-172.5"/>
+</g>
+<g id="node7" class="node">
+<polygon fill="none" stroke="#000000" points="434,-119.5 434,-150.5 764,-150.5 764,-119.5 434,-119.5"/>
+<polygon fill="#d3d3d3" stroke="transparent" points="437,-122.5 437,-147.5 761,-147.5 761,-122.5 437,-122.5"/>
+<text text-anchor="start" x="444" y="-132.5" font-family="NotoSans" font-size="10.00" fill="#0000ff">https://s3.amazonaws.com/benetta.net/story/sowa/rdf&#45;pic&#45;1.png</text>
+<polygon fill="none" stroke="#000000" points="434,-99.5 434,-119.5 764,-119.5 764,-99.5 434,-99.5"/>
+</g>
+<g id="node8" class="node">
+<polygon fill="none" stroke="#000000" points="136,-46.5 136,-77.5 199,-77.5 199,-46.5 136,-46.5"/>
+<polygon fill="#d3d3d3" stroke="transparent" points="139,-49.5 139,-74.5 196,-74.5 196,-49.5 139,-49.5"/>
+<text text-anchor="start" x="146" y="-59.5" font-family="NotoSans" font-size="10.00" fill="#0000ff">Stagirite</text>
+<polygon fill="none" stroke="#000000" points="136,-26.5 136,-46.5 199,-46.5 199,-26.5 136,-26.5"/>
+</g>
+<g id="node9" class="node">
+<polygon fill="none" stroke="#000000" points="566,-46.5 566,-77.5 632,-77.5 632,-46.5 566,-46.5"/>
+<polygon fill="#d3d3d3" stroke="transparent" points="569,-49.5 569,-74.5 629,-74.5 629,-49.5 569,-49.5"/>
+<text text-anchor="start" x="576" y="-59.5" font-family="NotoSans" font-size="10.00" fill="#0000ff">:Stagirite</text>
+<polygon fill="none" stroke="#000000" points="566,-26.5 566,-46.5 632,-46.5 632,-26.5 566,-26.5"/>
+</g>
+<g id="edge4" class="edge">
+<path fill="none" stroke="#0000ff" d="M206.8672,-52.5C285.5488,-52.5 460.7094,-52.5 547.7975,-52.5"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="547.9691,-56.0001 557.969,-52.5 547.969,-49.0001 547.9691,-56.0001"/>
+<text text-anchor="middle" x="380" y="-55.1" font-family="NotoSans" font-size="8.00" fill="#000000">owl:sameAs</text>
+</g>
+<g id="node11" class="node">
+<polygon fill="none" stroke="#000000" points="8,-213.5 8,-244.5 326,-244.5 326,-213.5 8,-213.5"/>
+<polygon fill="#d3d3d3" stroke="transparent" points="11,-216.5 11,-241.5 323,-241.5 323,-216.5 11,-216.5"/>
+<text text-anchor="start" x="66.5" y="-226.5" font-family="NotoSans" font-size="10.00" fill="#0000ff">:this</text>
+<text text-anchor="start" x="194.5" y="-226.5" font-family="NotoSans" font-size="10.00" fill="#000000">foaf:Document</text>
+<polygon fill="none" stroke="#000000" points="8,-118.5 8,-213.5 326,-213.5 326,-118.5 8,-118.5"/>
+<text text-anchor="start" x="18" y="-159" font-family="NotoSans" font-size="10.00" fill="#696969">dcterms:description</text>
+<text text-anchor="start" x="139" y="-186.5" font-family="NotoSans" font-size="10.00" fill="#000000">There is a Stagirite who teaches </text>
+<text text-anchor="start" x="125" y="-175.5" font-family="NotoSans" font-size="10.00" fill="#000000"> a Macedonian conqueror of the world </text>
+<text text-anchor="start" x="168.5" y="-164.5" font-family="NotoSans" font-size="10.00" fill="#000000"> and who is at once a</text>
+<text text-anchor="start" x="183.5" y="-153.5" font-family="NotoSans" font-size="10.00" fill="#000000">disciple and an</text>
+<text text-anchor="start" x="154.5" y="-142.5" font-family="NotoSans" font-size="10.00" fill="#000000">opponent of a philosopher </text>
+<text text-anchor="start" x="134.5" y="-131.5" font-family="NotoSans" font-size="10.00" fill="#000000"> admired by Fathers of the Church.</text>
+</g>
+<g id="edge8" class="edge">
+<path fill="none" stroke="#0000ff" d="M334.0225,-216.2963C381.4809,-226.1835 432.2691,-236.7644 476.5542,-245.9905"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="475.9826,-249.4464 486.4862,-248.0596 477.4103,-242.5936 475.9826,-249.4464"/>
+<text text-anchor="middle" x="380" y="-236.1" font-family="NotoSans" font-size="8.00" fill="#000000">foaf:primaryTopic</text>
+</g>
+<g id="edge6" class="edge">
+<path fill="none" stroke="#0000ff" d="M334.0225,-188.0726C360.7604,-189.1248 388.5552,-190.2186 415.6486,-191.2848"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="415.8644,-194.7959 425.9943,-191.6919 416.1397,-187.8013 415.8644,-194.7959"/>
+<text text-anchor="middle" x="380" y="-194.1" font-family="NotoSans" font-size="8.00" fill="#000000">foaf:depiction</text>
+</g>
+<g id="edge7" class="edge">
+<path fill="none" stroke="#0000ff" d="M334.0225,-159.8489C360.8782,-156.3676 388.8001,-152.7481 416.0066,-149.2214"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="416.5273,-152.6832 425.9943,-147.9267 415.6273,-145.7413 416.5273,-152.6832"/>
+<text text-anchor="middle" x="380" y="-162.1" font-family="NotoSans" font-size="8.00" fill="#000000">foaf:depiction</text>
+</g>
+<g id="edge9" class="edge">
+<path fill="none" stroke="#0000ff" d="M334.1263,-117.6425C364.4625,-107.1546 395.997,-96.9637 426,-88.5 466.444,-77.091 513.1374,-67.5844 547.8132,-61.2107"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="548.4979,-64.6438 557.7131,-59.4161 547.2492,-57.756 548.4979,-64.6438"/>
+<text text-anchor="middle" x="380" y="-116.1" font-family="NotoSans" font-size="8.00" fill="#000000">foaf:primaryTopic</text>
+</g>
+</g>
+</svg>

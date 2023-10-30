@@ -1,0 +1,175 @@
+reference
+https://truett-software.github.io/truettsoftware/sowa.html
+
+TODO
+CSS for
+	blockquotes
+	grid
+
+=====
+issue
+=====
+
+
+-----
+How to say “A cat is on a mat.”
+alignment text and image, last 2 rows
+
+-----
+The Scope of Quantifiers
+one line
+EGs in these four patterns represent the four sentence typesin Aristotle’s syllogisms: <link>
+
+-----
+Syntax of Existential Graphs
+better alignment: text and image
+
+-----
+Metalanguage 
+single sentences
+A relation attached to an oval makes a metalevel commentabout the proposition expressed by the nested graph. *
+The relation named 'is much to be wished' has one peg, whichis attached to a line, which says that the proposition p exists.
+
+-----
+Choice of Primitives
+single sentence
+See “Peirce the Logician” by Hilary Putnam for an overview of the contributions tologic by Peirce and Frege:   
+
+-----
+The RDF Subset of Logic
+single sentence
+English:  “There exists an x, which is a Stagirite, x teaches some y, which is a Macedonian that conquers the world, x is a disciple of some z, which is a philosopher admired by Church Fathers, and x is an opponent of z.”
+
+This subset of logic can represent the content of a relational database and many graph databases.
+
+-----
+Lambda Abstraction
+single sentences
+
+The top EG says Aristotle is a Stagirite who teaches Alexander who conquers the world.
+In the EG below it, the names Aristotle and Alexander are erased, and their places are marked with the Greek letter l.
+That EG represents a dyadic relation:  ___ is a Stagirite who teaches ___ who conquers the world.
+Peirce used an underscore to mark those empty places, but Alonzo Church marked them with l.
+
+-----
+EGs With Multiple Nested Negations
+single sentence
+Therefore, EGs are a good canonical form for expressing the common meaning.  See http
+
+-----
+Some “Syntactic Sugar”
+single sentences
+
+Peirce introduced the word 'scroll' for two nested ovals that are used to express an implication.
+The if-then keywords reflect Peirce’s intentions, and they improve readability.
+
+-----
+Translating the Word is to Logic
+single sentence
+As Peirce said, EGs are more iconic than the algebraic notation: they relate language to logic more clearly and directly.
+
+-----
+Linking Existential Quantifiers
+single sentence
+To relate existential quantifiers in different statements, EGs (left) and DRS (right) support equivalent operations:
+
+-----
+Disjunctions in EG and DRS
+done well!
+sentence is parallel to expression
+
+-----
+Praeclarum Theorema
+single sentences
+
+Note that the if-parts of (p⊃r) and (q⊃s) are white, because those areas are nested two levels deep.
+But the if-part of (p∧q) (⊃ r∧s) is shaded, because that area  is nested three levels deep.
+
+-----
+Proof of the Praeclarum Theorema
+single sentence
+Look ahead to the conclusion to see which rule would make the current graph look more like the target graph.
+
+-----
+Derived Rules of Inference
+single sentences
+Therefore, modus ponens may be used as a derived rule of inference in any proof by Peirce’s rules.
+
+All rules and proof procedures of classical first-order logic may be derived by a proof that uses Peirce’s rules.
+Therefore, any or all of those rules may be used as derived rules in any proof that uses EGs.
+With appropriate constraints, Peirce’s rules may also be adapted to higher- order logics, nonmonotonic logics, intuitionistic logics, etc.
+
+-----
+Proof of Modus Ponens in EGIF
+single sentence
+Therefore, EGs and EGIF proofs can be used to represent a wide range  of logics and proofs of computer science and systems.
+
+-----
+Proof of the Praeclarum Theorema in EGIF
+indent
+Replace the negations by the keywords 'If' and 'Then':
+  [If  [If  (p)  [Then (r)]]  [If (q)  [Then (s)]]  [Then  [If  (p) (q)  [Then (r) (s)] ] ]
+
+-----
+Applying Peirce’s Rules to Other Notations
+single sentences
+
+With minor changes, Peirce’s rules can be used with many logic notations, including controlled subsets of natural languages.
+Definition:  Proposition X is more general (or specialized) than Y iff the models for X are a proper superset (subset) of the models for Y.
+
+-----
+Peirce’s Rules Applied to English
+use a grid for left/right
+
+single sentence
+This method of reasoning is sound for sentences that can bemapped to a formal logic.  It can also be used on propositionalparts of sentences that contain some nonlogical features.
+
+-----
+A Proof in English
+use a grid
+
+-----
+Natural Deduction
+single sentence
+But Peirce’s method is a version of natural deduction that is simpler and more general than Gentzen’s:
+
+-----
+Gentzen’s Natural Deduction
+single sentence
+But Gentzen had more operators and more complex, nonsymmetric pairs of rules for inserting or erasing operators.
+
+-----
+Theoretical Issues
+single sentences
+Reversibility Theorem. Any proof from p to q can be converted to a proof of ~p from ~q by negating each step and reversing the order.
+Cut-and-Paste Theorem. If q can be proved from p on a blank sheet, then in any positive area where p occurs, q may be substituted for p.
+For proofs of these theorems and further discussion of the issues, see Section 6 of <url>
+
+-----
+A Problem in Automated Reasoning
+Use blockquotes
+Is there a mapping between clause representation and natural-deduction representation (and corresponding inference rules and strategies) that causes reasoning programs based respectively on the two approaches or paradigms to attack a given assignment in an essentially identical fashion?
+
+-----
+Psychology
+
+three blockquotes
+“Peirce’s existential graphs... establish the feasibility of a diagrammatic system of reasoning equivalent to the first-order predicate calculus.”
+“They anticipate the theory of mental models in many respects, including their iconic and symbolic components, their eschewal of variables, and their fundamental operations of insertion and deletion.”
+“Much is known about the psychology of reasoning... But we still lack a comprehensive account of how individuals representmultiply-quantified assertions, and so the graphs may providea guide to the future development of psychological theory.”
+
+-----
+Mental Maps, Images, and Models
+
+blockquotes
+“The distinctive feature of brains such as the one we own is their uncanny ability to create maps...  But when brains make maps, they are also creating images, the main currency of our minds. Ultimately consciousness allows us to experience maps as images, to manipulate those images, and to apply reasoning to them.”
+
+single sentence
+The maps and images form mental models of the real world or of the imaginary worlds in our hopes, fears, plans, and desires.
+They provide a “model theoretic” semantics for language that uses perception and action for testing models against reality.
+Like Tarski’s models, they define the criteria for truth, but they are flexible, dynamic, and situated in the daily drama of life.
+
+-----
+Teaching Logic
+Students who start with EGs and move to predicate calculus score higher on exams than students who study only predicate calculus.
+
