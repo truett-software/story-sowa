@@ -1,0 +1,112 @@
+
+/*********************
+ *  sowa grid original
+ */
+
+.parent-sowa {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 1px;
+}
+
+.g-11 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.g-21 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.g-31 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+.g-41 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+.g-51 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+
+.g-15 {
+  grid-column-start: 5;
+  grid-column-end: 10;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.g-25 {
+  grid-column-start: 5;
+  grid-column-end: 10;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.g-35 {
+  grid-column-start: 5;
+  grid-column-end: 10;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+.g-45 {
+  grid-column-start: 5;
+  grid-column-end: 10;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+.g-55 {
+  grid-column-start: 5;
+  grid-column-end: 10;
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+
+.g-15-item {
+    width:  50%;
+    height: 50%;
+}
+
+.g-55-item {
+    width:  50%;
+    height: 50%;
+}
+
+/* UPDATED */
+
+.grid-a {
+    display: grid;
+    grid-template-columns: repeat(12, [col] 1fr);
+    grid-template-rows: repeat(10, [row] auto);
+    grid-column-gap: 5px;
+}
+
+.item-a-11{grid-column:col 1 / span 5; grid-row:row;}
+.item-a-12{grid-column:col 6 / span 6; grid-row:row;}
+.item-a-21{grid-column:col 1 / span 5; grid-row:row 2;}
+.item-a-22{grid-column:col 6 / span 6; grid-row:row 2;}
+.item-a-31{grid-column:col 1 / span 5; grid-row:row 3;}
+.item-a-32{grid-column:col 6 / span 6; grid-row:row 3;}
+.item-a-41{grid-column:col 1 / span 5; grid-row:row 4;}
+.item-a-42{grid-column:col 6 / span 6; grid-row:row 4;}
+.item-a-51{grid-column:col 1 / span 5; grid-row:row 5;}
+.item-a-52{grid-column:col 6 / span 6; grid-row:row 5;}
+
+.item-a-111{grid-column:col 2 / span 10; grid-row:row;}
+.item-a-112{grid-column:col 3 / span 9; grid-row:row 2;}
+
+.item-b-111{grid-column:col 1 / span 3; grid-row:row;}
+.item-b-112{grid-column:col 5 / span 3; grid-row:row;}
+.item-b-113{grid-column:col 9 / span 3; grid-row:row;}

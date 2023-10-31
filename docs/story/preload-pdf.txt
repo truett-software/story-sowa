@@ -1,0 +1,31 @@
+
+<link rel="preload" as="fetch" type="application/pdf" crossorigin
+  href="https://afdsi.com/__test-sowa/attach/sowa-language-ontology-semantic-web.pdf"/>
+
+<link rel="preload" as="fetch" type="application/pdf" crossorigin
+  ref="https://afdsi.com/__test-sowa/attach/sowa-existential-graphs-20-01-10.pdf"/>
+
+<link rel="preload" as="fetch" type="application/pdf" crossorigin
+  href="https://afdsi.com/__test-sowa/attach/aristotle-patterns-of-logic-and-ontology.pdf"/>
+
+<link rel="preload" as="fetch" type="application/pdf" crossorigin
+  href="https://afdsi.com/__test-sowa/attach/sowa-propositions.pdf"/>
+
+<link rel="preload" as="fetch" type="application/pdf" crossorigin
+  href="https://afdsi.com/__test-sowa/attach/sowa-existential-graphs-and-egif.pdf">
+
+<link rel="preload" as="fetch" type="application/pdf" crossorigin
+  href="https://afdsi.com/__test-sowa/attach/sowa-reasoning-with-diagrams-and-images.pdf"/>
+
+<link rel="preload" as="fetch" type="application/pdf" crossorigin
+  href="https://afdsi.com/__test-sowa/attach/sowa-existential-graphs-20-01-10.pdf"/>
+
+<link rel="preload" as="fetch" type="application/pdf" crossorigin
+  href="https://afdsi.com/__test-sowa/attach/sowa-existential-graphs-to-conceptual-graphs.pdf"/>
+
+<link rel="preload" as="fetch" type="application/pdf" crossorigin
+  href="https://afdsi.com/__test-sowa/attach/sowa-natural-logic.pdf"/>
+
+<link rel="preload" as="fetch" type="application/pdf" crossorigin
+  href="https://afdsi.com/__test-sowa/attach/johnson-laird_-_peirce-logic-diagrams-and-reasoning.pdf"/>
+
