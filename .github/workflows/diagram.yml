@@ -9,9 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@main
-      - name: Repo Visualizer
-        uses: githubocto/repo-visualizer@0.9.1
+        uses: actions/checkout@master
+      - name: Update diagram
+        uses: githubocto/repo-visualizer@main
         with:
-          excluded_paths: "ignore,.github,.idea"
-
+          excluded_paths: "ignore,.github"
