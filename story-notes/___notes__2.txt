@@ -1,0 +1,21 @@
+
+16:07 6/18/2023
+
+Status
+this version is superceded by CLIP
+update lightly using new CLIP notation
+
+TODO
+
+many/most noto-sans-italic should be noto-serif-italic
+improve first 10 colors
+logic symbols
+    use noto-sans-math
+quantifiers has best attachment
+fix 'top'
+
+build JSON-LD template (for all Stories)
+substitute WEBP for SVG
+for RDF, create attachment with two images linked in graph; add explanation
+
+amp-story-player

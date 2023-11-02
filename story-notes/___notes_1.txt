@@ -1,0 +1,134 @@
+
+Sowa
+	Sowa illustrates how to express logic using graphs.
+	This version removes detail to engage readers who have not studied formal logic.
+
+Homage
+	Euler
+		https://en.wikipedia.org/wiki/Seven_Bridges_of_K%C3%B6nigsberg
+
+Ontomatica implements solutions using RDF and OWL programming languages
+We illustrate how to transform a Sowa/Peirce example into triples, coded in RDF and visualized as a directed graph
+
+==============================
+KEY WORDS USED IN PRESENTATION
+==============================
+
+Also repeated in page attachments for quick reference
+
+Graphs
+	
+
+Existential Graph
+	https://en.wikipedia.org/wiki/Existential_graph
+	https://en.wikipedia.org/wiki/Existential_graph#/media/File:PeirceAlphaGraphs.svg
+	An existential graph is a type of diagrammatic or visual notation for logical expressions, proposed by Charles Sanders Peirce, who wrote on graphical logic as early as 1882, and continued to develop the method until his death in 1914. 
+
+Conceptual Graph
+	https://en.wikipedia.org/wiki/Conceptual_graph
+	A conceptual graph is a formalism for knowledge representation. John F. Sowa used them to represent the conceptual schemas used in database systems.
+	https://en.wikipedia.org/wiki/Conceptual_graph#/media/File:Cat-on-mat.svg
+
+Logic
+	https://en.wikipedia.org/wiki/Logical_connective
+	https://en.wikipedia.org/wiki/Logical_biconditional
+	https://en.wikipedia.org/wiki/Material_conditional
+
+First Order Logic
+	https://en.wikipedia.org/wiki/First-order_logic
+	The foundations of first-order logic were developed independently by Gottlob Frege and Charles Sanders Peirce.
+
+Description Logic
+	link to CTD
+
+Common Logic
+	https://en.wikipedia.org/wiki/Common_Logic
+	ISO 24707:2018 Common Logic (CL) — A framework for a family of logic-based languages
+	https://www.iso.org/standard/66249.html
+
+Reasoning
+	https://en.wikipedia.org/wiki/Reasoning_system
+
+Epistemology
+	https://en.wikipedia.org/wiki/Epistemology
+
+Metalanguage
+	https://en.wikipedia.org/wiki/Metalanguage
+
+Inference
+	https://en.wikipedia.org/wiki/Inference
+	https://en.wikipedia.org/wiki/Inference_engine
+
+Proof
+	https://en.wikipedia.org/wiki/Formal_proof
+
+Notation
+	https://en.wikipedia.org/wiki/Notation
+
+Conjunction
+	https://en.wikipedia.org/wiki/Logical_conjunction
+
+Disjunction
+	https://en.wikipedia.org/wiki/Logical_disjunction
+
+Negation
+	https://en.wikipedia.org/wiki/Negation
+
+Boolean expression
+	https://en.wikipedia.org/wiki/Boolean_expression
+	https://en.wikipedia.org/wiki/Boolean_algebra_(structure)
+
+Quantifiers
+	https://en.wikipedia.org/wiki/Quantifier_(logic)
+
+Lambda abstraction
+	https://en.wikipedia.org/wiki/Lambda_calculus
+
+Causality
+	Post hoc ergo propter hoc
+	https://en.wikipedia.org/wiki/Post_hoc_ergo_propter_hoc
+	"Since event Y followed event X, event Y must have been caused by event X."
+	related causality articles
+
+If and only if
+	Biconditional
+	https://en.wikipedia.org/wiki/If_and_only_if
+	U+21D4
+	U+2261
+
+Triples
+	https://en.wikipedia.org/wiki/Semantic_triple
+	A set of three entities that codifies a statement in the form of subject–predicate–object expressions (e.g., "Bob is 35", or "Bob knows John").
+
+RDF
+	https://en.wikipedia.org/wiki/Resource_Description_Framework
+	see: RDF in 50 words or less
+
+Turtle
+	https://en.wikipedia.org/wiki/Turtle_(syntax)
+	Terse RDF Triple Language (Turtle) is a Notation that abbreviates RDF/Triples information in a human readable format.
+
+Symbols and meaning
+	https://en.wikipedia.org/wiki/List_of_logic_symbols
+
+	http://www.philosophypages.com/lg/e10a.htm
+
+	http://www2.hawaii.edu/~pine/logicweb/tutorials/Chapter-7-Translating/Chapter-7-Translating.html
+
+	https://www.britannica.com/topic/logic/Logical-notation
+		If Peter owns a donkey, he beats it.
+
+	https://sites.millersville.edu/bikenaga/math-proof/logical-connectives/logical-connectives.html
+
+
+
+---------
+Resources
+---------
+
+Discourse Representation Structure (DRS)
+Discourse Representation Theory (DRT)
+
+https://plato.stanford.edu/entries/discourse-representation-theory/
+
+
