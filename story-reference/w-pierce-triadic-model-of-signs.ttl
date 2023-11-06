@@ -1,0 +1,109 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> . 
+@prefix ns1:	<http://kingsley.idehen.net/DAV/home/kidehen/Public/Linked%20Data%20Documents/Tutorials/pierce-triadic-model-of-signs.ttl#> . 
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> . 
+@prefix owl:	<http://www.w3.org/2002/07/owl#> . 
+@prefix schema:	<http://schema.org/> . 
+@prefix ns5:	<https://groups.google.com/d/msg/ontolog-forum/2TDWB_QaQIg/> . 
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> . 
+@prefix ldp:	<http://www.w3.org/ns/ldp#> . 
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> . 
+
+### Source document ###
+@prefix schema: <http://schema.org/> .
+@prefix sowa-signs: <http://jfsowa.com/pubs/signs.> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> . 
+@prefix : <#> .
+
+<>
+a schema:CreativeWork, foaf:Document ;
+schema:name "About Pierce's Triadic Model of Signs" ;
+schema:description """Notes inscribed using RDF sentences based on reading John F. Sowa's analysis of the nature
+					of signs and the role they play in communication based on logic.""" ;
+schema:about :Mark, :Sign, :Token, :Type, :Icon, :Index, :Symbol, :Predicate, :Proposition, :Argument ;
+schema:image <https://liosna1102.files.wordpress.com/2014/03/images.jpg>, <https://i.pinimg.com/originals/fc/bd/42/fcbd42b40c13b33f664f4986a3c152c5.png> .
+
+:Mark
+a skos:Concept ;
+schema:name "Mark" ;
+owl:sameAs :Entity ;
+skos:broader :Sign, :Token, :Type ;
+schema:description """A mark is anything perceptible at the earliest stage of sensation before it has been recognized,
+interpreted, or classified. """ ;
+schema:cite sowa-signs:pdf . 
+
+
+:Sign
+a skos:Concept ;
+schema:name "Sign" ;
+skos:broader  :Token, :Type ;
+skos:narrower :Mark ;
+schema:description """A sign, or representamen, is something which stands to somebody for something in some
+respect or capacity. It addresses somebody, that is, creates in the mind of that person an 
+equivalent sign, or perhaps a more developed sign. That sign which it creates I call the
+interpretant of the first sign. The sign stands for something, its object. It stands for that
+object, not in all respects, but in reference to a sort of idea, which I have sometimes called
+the ground of the representamen. """ ;
+schema:cite sowa-signs:pdf . 
+
+:Token
+a skos:Concept ;
+schema:name "Token" ;
+skos:broader  :Type ;
+skos:narrower :Sign, :Mark ;
+schema:description """A token is a mark that has been classified as an instance of some type. But the same mark, for
+different reasons or different contexts, may be classified as a token of an open-ended variety of types. """ ;
+schema:cite sowa-signs:pdf . 
+
+:Type
+a skos:Concept ;
+schema:name "Type" ;
+skos:narrower :Token, :Sign, :Mark ;
+schema:description """A type is a general category, principle, law, or habit for classifying marks as tokens. Most of
+the ambiguities and complexities that Armstrong discussed are the result of trying to classify a
+continuous range of marks by a discrete set of types.""" ;
+schema:cite sowa-signs:pdf . 
+
+:Icon
+a skos:Concept ;
+skos:narrower :Sign, :Mark , :Type ;
+schema:descripton """An icon resembles its referent in some way. For example an image that resembles a telephone.""" ;
+schema:cite <https://groups.google.com/d/msg/ontolog-forum/2TDWB_QaQIg/ldfw3oAxAwAJ> . 
+
+:Index
+a skos:Concept ;
+schema:name "Index" ;
+skos:narrower :Sign, :Mark , :Type ;
+schema:description """An index points to it in some way. For instance a finger pointing towards a telephone.""" ;
+schema:cite <https://groups.google.com/d/msg/ontolog-forum/2TDWB_QaQIg/ldfw3oAxAwAJ> . 
+
+:Symbol
+a skos:Concept ;
+schema:name "Symbol" ;
+skos:narrower :Sign, :Mark , :Type ;
+schema:description """An icon of an old-fashioned telephone that is generalized depiction of any kind of telephone.""" ;
+schema:cite <https://groups.google.com/d/msg/ontolog-forum/2TDWB_QaQIg/ldfw3oAxAwAJ> . 
+
+:Predicate
+a skos:Concept ;
+schema:name "Predicate" ;
+skos:narrower :Sign, :Mark , :Type ;
+schema:description """A logical predicate or a group-identifying-term such as telephone, which may identify a set (collection) 
+					  comprising any telephone, be it real or imagined.
+				   """ ;
+schema:image <https://i.pinimg.com/originals/06/46/83/06468323cb5fbe8fc594b47a9214ab9f.png> ;
+schema:cite <https://groups.google.com/d/msg/ontolog-forum/2TDWB_QaQIg/ldfw3oAxAwAJ> . 
+
+:Proposition
+a skos:Concept ;
+schema:name "Proposition" ;
+skos:narrower :Sign, :Mark , :Type ;
+schema:description """A sentence [systematic use of signs, syntax, and semantics] to represent a claim about the existence of a telephone: 'This is a telephone.'""" ;
+schema:cite <https://groups.google.com/d/msg/ontolog-forum/2TDWB_QaQIg/ldfw3oAxAwAJ> . 
+
+:Argument
+a skos:Concept ;
+schema:name "Argument" ;
+skos:narrower :Sign, :Mark , :Type ;
+schema:description """A sequence of propositions that expresses a predefined (sort of lawlike or consequential) connection: 
+					  'It may be an emergency. You should answer the phone'""" ;
+schema:cite <https://groups.google.com/d/msg/ontolog-forum/2TDWB_QaQIg/ldfw3oAxAwAJ> . 

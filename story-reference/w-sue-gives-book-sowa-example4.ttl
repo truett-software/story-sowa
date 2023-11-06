@@ -1,0 +1,30 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> . 
+@prefix schema: <http://schema.org/> . 
+@prefix : <#> . 
+
+## Data 
+## A Book Exists that has an Agent named Sue (an Adult) that gives said Book to Sally (a Child)
+## [{indefinite-pronoun-identifier-type}] <{relation-ship-type}> [{idefintite-pronoun-identifier-type}]
+
+[ a foaf:Person; owl:sameAs :Sally] foaf:knows [ owl:sameAs :Sue ] .
+[ a schema:Book; owl:sameAs :thisBook ] .
+
+:Gives
+a :Event ;
+schema:name "Gives" ;
+:agent :Sue ;
+:recipient :Sally ;
+:item :thisBook .
+
+:theme owl:equivalentProperty :item . 
+
+
+:thisBook
+schema:name "About Language & Logic" .
+
+:Sue
+a foaf:Person .
+
+:Sally
+foaf:name "Sally" .
