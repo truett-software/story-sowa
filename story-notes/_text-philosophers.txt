@@ -1,0 +1,37 @@
+Aristotle was a Greek philosopher and polymath. His writings cover a broad range of subjects spanning the natural sciences, philosophy, linguistics, economics, politics, psychology and the arts. The Aristotelian tradition set the groundwork for the development of modern science.
+
+With the <i>Prior Analytics</i>, Aristotle is credited with the earliest study of formal logic, and his conception of it was the dominant form of Western logic until 19th-century advances in mathematical logic.
+
+---
+
+Leonhard Euler was a Swiss mathematician, physicist, astronomer, geographer, logician and engineer who founded the studies of graph theory and topology. He introduced much of modern mathematical terminology and notation, including the notion of a mathematical function.
+
+In 1735, Euler presented a solution to the problem known as the Seven Bridges of Königsberg. The problem is to decide whether it is possible to follow a path that crosses each bridge exactly once and returns to the starting point. It is not possible: there is no path in a finite graph that visits every edge exactly once. This solution is considered to be the first theorem of graph theory.
+
+---
+
+Charles Sanders Peirce was an American philosopher, logician, mathematician and scientist. He defined the concept of abductive reasoning, as well as rigorously formulated mathematical induction and deductive reasoning. As early as 1886, he saw that logical operations could be carried out by electrical switching circuits. The same idea was used decades later to produce digital computers.
+
+During the 1890s he devised existential graphs, a diagrammatic notation for the predicate calculus. John F. Sowa's conceptual graphs and Sun-Joo Shin's diagrammatic reasoning are based on existential graphs. In computer science, the relational model for databases was developed with Peircean ideas by Edgar F. Codd. In economics, relational logic was used by John von Neumann and Paul Samuelson to study preferences and utility.
+
+---
+
+Alonzo Church was an American mathematician, computer scientist, logician, and philosopher who made major contributions to mathematical logic and the foundations of theoretical computer science. Alongside his doctoral student Alan Turing, Church is considered one of the founders of computer science.
+
+He invented the lambda calculus which influenced the design of Lisp and functional programming languages.
+
+---
+
+John F. Sowa is an American computer scientist, an expert in artificial intelligence and database query linked to natural languages. His work combines ideas from numerous disciplines and eras such as Aristotle, Alfred North Whitehead and Islamic scholar Ibn Taymiyyah.
+
+Sowa invented conceptual graphs, a graphic notation for logic and natural language, based on the structures in semantic networks and on the existential graphs of Charles S. Peirce. This presentation is based on Sowa presentations.
+
+---
+
+Timothy Berners-Lee is an English computer scientist who devised and implemented the first Web browser and Web server. In 1999 Berners-Lee defined linked data - a formal description of concepts, terms, and relationships within a given knowledge domain.
+
+To facilitate linked data, Berners-Lee proposes enabling technologies such as: Resource Description Framework (RDF); N-Triples, a format for storing and transmitting data; SPARQL, an RDF query language; Web Ontology Language (OWL), a family of knowledge representation languages; and JavaScript Object Notation for Linked Data (JSON-LD), a JSON-based method to describe data.
+
+
+
+
