@@ -1,0 +1,12 @@
+
+( ∃ x y z) (Jones x) (Smith y) (Cooper z)
+[Or [ (∃ u) (owns x u) ("book on semantics" u) ]
+    [ (∃ v) (owns y v) ("book on logic" v) ]
+    [ (∃ w) (owns z w) ("book on unicorns" w) ] ].
+
+
+( &#x2203; &#x1d465; &#x1d466; &#x1d467;) (Jones &#x1d465;) (Smith &#x1d466;) (Cooper &#x1d467;)
+[Or [ (&#x2203; &#x1d462;) (owns &#x1d465; &#x1d462;) ("book on semantics" &#x1d462;) ]
+    [ (&#x2203; &#x1d463;) (owns &#x1d466; &#x1d463;) ("book on semantics" &#x1d463;) ]
+    [ (&#x2203; &#x1d464;) (owns &#x1d467; &#x1d464;) ("book on semantics" &#x1d464;) ] ]
+

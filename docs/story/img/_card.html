@@ -1,0 +1,435 @@
+<!--
+source:
+https://codepen.io/BRacicot/pen/ZVbxLx
+-->
+
+<!DOCTYPE html>
+<html amp lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<link rel="shortcut icon" href="https://ontomatica.io/static/image/logo/onto-symbol-w252-h252.svg"/>
+
+<title>
+Philosopher Card
+</title>
+
+<link rel="canonical"
+  href="https://afdsi.com/story-sowa/" />
+
+<link rel="preload" as="script"
+  href="https://cdn.ampproject.org/v0.js" />
+
+<script async
+  src="https://cdn.ampproject.org/v0.js"></script>
+
+<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+
+<style amp-custom>
+
+@font-face{font-family:NotoSans-Regular-400;font-style:normal;font-weight:400;src:url("https://s3.amazonaws.com/benetta.net/fonts/noto-sans/NotoSans-Regular.ttf") format("truetype");font-display:swap;}
+
+@font-face{font-family:NotoSans-Italic-400;font-style:italic;font-weight:400;src:url("https://s3.amazonaws.com/benetta.net/fonts/noto-sans/NotoSans-Italic.ttf") format("truetype");font-display:swap;}
+
+@font-face{font-family:NotoSerif-Regular-400;font-style:normal;font-weight:400;src:url("https://s3.amazonaws.com/benetta.net/fonts/noto-serif/NotoSerif-Regular.ttf") format("truetype");font-display:swap;}
+
+@font-face{font-family:NotoSerif-Italic-400;font-style:italic;font-weight:400;src:url("https://s3.amazonaws.com/benetta.net/fonts/noto-serif/NotoSerif-Italic.ttf") format("truetype");font-display:swap;}
+
+.NotoSans-Regular-400{font-family:NotoSans-Regular-400, sans-serif;font-style:normal;font-weight:400}
+.NotoSans-Italic-400{font-family:NotoSans-Italic-400, sans-serif;font-style:italic;font-weight:400;}
+
+.NotoSerif-Regular-400{font-family:NotoSerif-Regular-400;font-style:normal;font-weight:400;font-size:2em;}
+.NotoSerif-Italic-400{font-family:NotoSerif-Italic-400;font-style:italic;font-weight:400;}
+
+.card {
+  box-shadow: 0 0px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.card .card-body {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 30px;
+}
+.card header {
+  flex: 100%;
+}
+
+/* .card .meta { */
+  /* margin-bottom: 22px; */
+/* } */
+
+.card .featured-image {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  overflow: hidden;
+  width: 100%;
+  /* height: 300px; */
+}
+
+@media only screen and (min-width: 768px) {
+  .card {
+    flex-direction: row;
+    max-height: 279px;
+  }
+  .card h3 {
+    font-size: calc(100% + 1vw);
+  }
+  .card .featured-image {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 0;
+    max-width: 390px;
+    max-height: 279px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .card h3 {
+    font-size: 32px;
+  }
+}
+
+h3 {
+  color: #222;
+  margin: -0.8em 0 0 0;
+}
+
+.fs-08 {
+  font-size: 0.8rem;
+}
+.fs-09 {
+  font-size: 0.9rem;
+}
+.fs-10 {
+  font-size: 1.0rem;
+}
+.fs-11 {
+  font-size: 1.1rem;
+}
+.fs-12 {
+  font-size: 1.2rem;
+}
+.fs-13 {
+  font-size: 1.3rem;
+}
+.fs-14 {
+  font-size: 1.4rem;
+}
+.fs-15 {
+  font-size: 1.5rem;
+}
+.fs-16 {
+  font-size: 1.6rem;
+}
+.fs-18 {
+  font-size: 1.8rem;
+}
+.fs-20 {
+  font-size: 2.0rem;
+}
+.fs-22 {
+  font-size: 2.2rem;
+}
+.fs-24 {
+  font-size: 2.4rem;
+}
+.fs-26 {
+  font-size: 2.6rem;
+}
+.fs-28 {
+  font-size: 2.8rem;
+}
+.fs-30 {
+  font-size: 3.0rem;
+}
+.fs-32 {
+  font-size: 3.2rem;
+}
+.fs-34 {
+  font-size: 3.4rem;
+}
+.fs-36 {
+  font-size: 3.6rem;
+}
+.fs-38 {
+  font-size: 3.8rem;
+}
+.fs-40 {
+  font-size: 4.0rem;
+}
+
+/* Line Height */
+.lh-06 {
+  line-height: calc(0.6rem + 0.1rem);
+}
+.lh-08 {
+  line-height: calc(0.8rem + 0.2rem);
+}
+.lh-10 {
+  line-height: calc(1.0rem + 0.3rem);
+}
+.lh-12 {
+  line-height: calc(1.2rem + 0.4rem);
+}
+.lh-14 {
+  line-height: calc(1.4rem + 0.5rem);
+}
+.lh-16 {
+  line-height: calc(1.6rem + 0.6rem);
+}
+.lh-18 {
+  line-height: calc(1.8rem + 0.7rem);
+}
+.lh-20 {
+  line-height: calc(2.0rem + 0.7rem);
+}
+.lh-22 {
+  line-height: calc(2.2rem + 0.7rem);
+}
+.lh-24 {
+  line-height: calc(2.4rem + 0.7rem);
+}
+.lh-26 {
+  line-height: calc(2.6rem + 0.7rem);
+}
+.lh-28 {
+  line-height: calc(2.8rem + 0.7rem);
+}
+.lh-30 {
+  line-height: calc(3.0rem + 0.7rem);
+}
+.lh-32 {
+  line-height: calc(3.2rem + 0.7rem);
+}
+.lh-34 {
+  line-height: calc(3.4rem + 0.7rem);
+}
+
+ul {
+  display: block;
+  margin: 0 auto;
+  max-width: 1160px;
+  padding: 30px;
+}
+
+.uline {
+  text-decoration: none;
+  position: relative;
+}
+
+.uline::before {
+  position: absolute;
+  content: "";
+  height: 2px;
+  bottom: -4px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: 50%;
+  background: #e6e6e6;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.uline:hover::before {
+  width: 70%;
+  background: #1f64ff;
+}
+
+.c-1f64ff{color:#1f64ff;}
+
+</style>
+</head>
+<body>
+
+<!--
+<amp-img
+  class="featured-image"
+  src="aristotle-w359-h480.jpg"
+  width="359"
+  height="480"
+  layout="responsive"
+></amp-img>
+-->
+
+<ul>
+<li class="card">
+<!--
+aristotle-w359-h480.jpg
+aristotle-w400-h300.webp
+aristotle-w1700-h2275.jpg
+-->
+<a 
+  href="#" 
+  class="featured-image" 
+  style="background-image:url('aristotle-w359-h480.jpg')"
+></a>
+<article class="card-body">
+  <header>
+    <h3 class="NotoSans-Regular-400 lh-14">
+    <a href="https://en.wikipedia.org/wiki/Aristotle" class="NotoSans-Regular-400 uline c-1f64ff">Aristotle</a>
+    </h3>
+    <p class="NotoSerif-Regular-400 fs-12 lh-12">
+    Aristotle was a Greek philosopher. His writings span the natural sciences, philosophy, linguistics, economics, politics, psychology and the arts. The Aristotelian tradition set the groundwork for the development of modern science.
+    With the <i>Prior Analytics</i>, Aristotle is credited with the earliest study of formal logic, and his conception of it was the dominant form of Western logic until 19th-century advances in mathematical logic.
+    </p>
+  </header>
+</article>
+</li>
+</ul>
+
+<ul>
+<li class="card">
+<a 
+  href="#" 
+  class="featured-image" 
+  style="background-image:url('leonhard-euler-w4672-h6040.jpg')">
+</a>
+<article class="card-body">
+  <header>
+    <h3 class="NotoSans-Regular-400 lh-08">
+    <a href="https://en.wikipedia.org/wiki/Leonhard_Euler" class="NotoSans-Regular-400 uline c-1f64ff">Leonard Euler</a>
+    </h3>
+    <p class="NotoSerif-Regular-400 fs-12">
+    Leonhard Euler was a Swiss mathematician, physicist, astronomer, geographer, logician and engineer who founded the studies of graph theory and topology.
+    In 1735, Euler presented a solution to the problem known as the Seven Bridges of Königsberg. The problem is to decide whether it is possible to follow a path that crosses each bridge exactly once and returns to the starting point. It is not possible: there is no path in a finite graph that visits every edge exactly once. This solution is considered to be the first theorem of graph theory.
+    </p>
+  </header>
+</article>
+</li>
+</ul>
+
+<ul>
+<li class="card">
+<a 
+  href="#" 
+  class="featured-image" 
+  style="background-image:url('charles-sanders-peirce-919-980.jpg')">
+</a>
+<article class="card-body">
+  <header>
+    <h3 class="NotoSans-Regular-400 lh-08">
+    <a href="https://en.wikipedia.org/wiki/Charles_Sanders_Peirce" class="NotoSans-Regular-400 uline c-1f64ff">Charles Sanders Peirce</a>
+    </h3>
+    <p class="NotoSerif-Regular-400 fs-12">
+    Charles Sanders Peirce was an American philosopher, logician, mathematician and scientist. As early as 1886, he saw that logical operations could be carried out by electrical switching circuits - the basis of digital computers.
+    During the 1890s he devised existential graphs, a diagrammatic notation for the predicate calculus. John F. Sowa's conceptual graphs and Sun-Joo Shin's diagrammatic reasoning are based on existential graphs. In computer science, the relational model for databases was developed with Peircean ideas by Edgar F. Codd.
+    </p>
+  </header>
+</article>
+</li>
+</ul>
+
+<ul>
+<li class="card">
+<a 
+  href="#" 
+  class="featured-image" 
+  style="background-image:url('alonzo-church-w235-h312.jpg')">
+</a>
+<article class="card-body">
+  <header>
+    <h3 class="NotoSans-Regular-400 lh-08">
+    <a href="https://en.wikipedia.org/wiki/Alonzo_Church" class="NotoSans-Regular-400 uline c-1f64ff">Alonzo Church</a>
+    </h3>
+    <p class="NotoSerif-Regular-400 fs-12">
+    Alonzo Church was an American mathematician, computer scientist, logician, and philosopher who made major contributions to mathematical logic and the foundations of theoretical computer science. Alongside his doctoral student Alan Turing, Church is considered one of the founders of computer science.
+    He invented the lambda calculus which influenced the design of Lisp and functional programming languages.
+    </p>
+  </header>
+</article>
+</li>
+</ul>
+
+<ul>
+<li class="card">
+<a 
+  href="#" 
+  class="featured-image" 
+  style="background-image:url('john-f-sowa-w270-h262.jpg')">
+</a>
+<article class="card-body">
+  <header>
+    <h3 class="NotoSans-Regular-400 lh-08">
+    <a href="https://en.wikipedia.org/wiki/John_F._Sowa" class="NotoSans-Regular-400 uline c-1f64ff">John F. Sowa</a>
+    </h3>
+    <p class="NotoSerif-Regular-400 fs-12">
+    John F. Sowa is an American computer scientist, an expert in artificial intelligence and database query linked to natural languages. His work combines ideas from numerous disciplines and eras such as Aristotle, Alfred North Whitehead and Islamic scholar Ibn Taymiyyah.
+    Sowa invented conceptual graphs, a graphic notation for logic and natural language, based on the structures in semantic networks and on the existential graphs of Charles S. Peirce. This presentation is based on Sowa presentations.
+    </p>
+  </header>
+</article>
+</li>
+</ul>
+
+<ul>
+<li class="card">
+<a 
+  href="#" 
+  class="featured-image" 
+  style="background-image:url('tim-berners-lee-w570-h713.jpg')">
+</a>
+<article class="card-body">
+  <header>
+    <h3 class="NotoSans-Regular-400 lh-08">
+    <a href="https://en.wikipedia.org/wiki/Tim_Berners-Lee" class="NotoSans-Regular-400 uline c-1f64ff">Tim Berners&#x2012;Lee</a>
+    </h3>
+    <p class="NotoSerif-Regular-400 fs-12">
+    Timothy Berners-Lee is an English computer scientist who devised and implemented the first Web browser and Web server. In 1999 Berners-Lee defined linked data - a formal description of concepts, terms, and relationships within a given knowledge domain.
+    To facilitate linked data, Berners-Lee proposes enabling technologies such as: Resource Description Framework (RDF); N-Triples, a format for storing and transmitting data; SPARQL, an RDF query language; and Web Ontology Language (OWL), a family of knowledge representation languages.
+    </p>
+  </header>
+</article>
+</li>
+</ul>
+
+<ul>
+<li class="card">
+<a 
+  href="#" 
+  class="featured-image" 
+  style="background-image:url('philip-johnson-laird-w512-h512.jpg')">
+</a>
+<article class="card-body">
+  <header>
+    <h3 class="NotoSans-Regular-400 lh-08">
+    <a href="https://en.wikipedia.org/wiki/Philip_Johnson-Laird" class="NotoSans-Regular-400 uline c-1f64ff">Philip Johnson&#x2012;Laird</a>
+    </h3>
+    <p class="NotoSerif-Regular-400 fs-12">
+    Philip Johnson&#x2012;Laird is an expert on human cognition and the psychology of language, thinking and reasoning. He is a developer of the mental model theory of reasoning. Johnson&#x2012;Laird has shown that people reason by constructing a set of mental models of possibilities, selecting commonalities, and choosing among them.
+    </p>
+  </header>
+</article>
+</li>
+</ul>
+
+<ul>
+<li class="card">
+<a 
+  href="#" 
+  class="featured-image" 
+  style="background-image:url('antonio-damasio-w1579-h1579.jpg')">
+</a>
+<article class="card-body">
+  <header>
+    <h3 class="NotoSans-Regular-400 lh-08">
+    <a href="https://en.wikipedia.org/wiki/Antonio_Damasio" class="NotoSans-Regular-400 uline c-1f64ff">Antonio Damasio</a>
+    </h3>
+    <p class="NotoSerif-Regular-400 fs-12">
+    Antonio Damasio is a Portuguese-American neurologist and neuroscientist. As a researcher, his main interest is the neurobiology of the mind, especially neural systems which subserve memory, language, emotion, and decision-making. His research has helped to elucidate the neural basis for the emotions and has shown that emotions play a central role in social cognition and decision-making.
+    </p>
+  </header>
+</article>
+</li>
+</ul>
+
+</body>
+</html>

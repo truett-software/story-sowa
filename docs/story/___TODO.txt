@@ -1,0 +1,20 @@
+
+reorg CSS element declarations
+use fold level 4 to see pages
+treeshake CSS
+preload target fonts
+update table to work for different layouts
+
+
+12/07/2023
+
+Update
+    publisher-logo-src="https://ontomatica.io/static/image/logo/onto-symbol-w252-h252.svg"
+    poster-portrait-src="https://benetta.net/media/background-svg/background-sun-tornado-w2000-h1500.svg"
+    poster-square-src="https://benetta.net/media/background-svg/background-sun-tornado-w2000-h1500.svg"
+    poster-landscape-src="https://benetta.net/media/background-svg/background-sun-tornado-w2000-h1500.svg"
+
+
+Organize /img directory like SDL
+
+Convert backgrounds to WEBP

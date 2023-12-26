@@ -1,0 +1,16 @@
+
+Humans are taught to use text and numbers to communicate knowledge in human-readable form.
+
+Machines also need to be taught to share and apply knowledge – knowledge encoded in a machine-readable form.
+
+To make that possible we need:
+
+Open Standards for digital sentence representation - e.g., the RDF Language
+
+Open Standards for symbols that function like names - e.g., HTTP hyperlinks
+
+Open Standards for representing relationship types - e.g., RDF Schema and OWL to describe entity-relationship types in machine-comprehensible form.
+
+Database Management Systems to manage data represented as sentence-graphs, using the open standards above.
+
+John F Sowa teaches us how to build sentence-graphs.
