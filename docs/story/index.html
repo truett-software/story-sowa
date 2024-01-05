@@ -129,6 +129,7 @@ Existential Graphs
 
   /* legacy */
   --on-ffffff: #ffffff;
+  --on-000000: #000000;
   --on-595775: #595775;
   --on-cccccc: #cccccc;
   --on-ff0000: #ff0000;
@@ -2830,6 +2831,10 @@ td::before {
   overflow: hidden;
   width: 100%;
   /* height: 300px; */
+}
+/* card in dark theme */
+.c-bg-b {
+  background-color: var(--on-000000) !important;
 }
 
 @media only screen and (min-width: 768px) {
@@ -6624,7 +6629,7 @@ h3 {
       >
         <section>
           <ul>
-            <li class="card">
+            <li class="card c-bg-b">
               <a
                 href="#"
                 class="featured-image"
@@ -6642,7 +6647,7 @@ h3 {
                       Antonio Damasio
                     </a>
                   </h3>
-                  <p class="NotoSerif-Regular-400 fs-12 hc-l">
+                  <p class="NotoSerif-Regular-400 fs-12 pt">
                     Antonio Damasio is a Portuguese&#x2010;American neurologist
                     and neuroscientist. His main research interest is the
                     neurobiology of the mind, especially neural systems which
